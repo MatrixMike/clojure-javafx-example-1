@@ -15,10 +15,11 @@
   (:import (javafx.beans.value ChangeListener ObservableValue)
            (javafx.concurrent Worker$State)
            (javafx.event ActionEvent EventHandler)
+           (javafx.stage Stage)
            (javafx.scene Scene)
            (javafx.scene.control Button)
            (javafx.scene.layout StackPane)           
-           (javafx.stage Stage)
+
            (javafx.scene.web WebView)))
 
 (gen-class
