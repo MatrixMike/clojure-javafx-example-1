@@ -1,0 +1,55 @@
+
+  501  uname -a
+  502  mvn
+  503  df -h
+  504  sudo apt-get install maven2
+  505  mvn
+  506  mvn deploy:deploy-file -DgroupId=local.oracle -DartifactId=javafxrt -Dversion=2.2.0 -Dpackaging=jar -Dfile=/usr/lib/jvm/java-7-oracle-64/jre/lib/jfxrt.jar -Durl=file:/home/raju/.m2/repository
+  507  echo $JAVA_HOME
+  508  lein
+  509  lein version
+  510  lein deps
+  511  cd  ~/
+  512  git clone https://github.com/raju-bitter/clojure-javafx-example.git
+  513  cd clojure-javafx-example/
+  514  tree
+  515  lein repl
+  516  git 
+  517  git --version
+  518  sudo apt-get upgrade git
+  519  tree
+  520  git --version
+  521  lein compile
+  522  tree
+  523  geany project.clj &
+  524  lein deps
+  525  lein repl
+  526  lein deps
+  527  lein compile
+  528  git status
+  529  git add project.clj 
+  530  git commit
+  531  git log
+  532  lein compile
+  533  lein compile
+  534  mvn deploy:deploy-file -DgroupId=local.oracle -DartifactId=javafxrt -Dversion=2.2.0 -Dpackaging=jar -Dfile=/usr/lib/jvm/java-8-oracle-64/jre/lib/rt.jar -Durl=file:/home/mikeh/.m2/repository
+  535  mvn deploy:deploy-file -DgroupId=local.oracle -DartifactId=javafxrt -Dversion=2.2.0 -Dpackaging=jar -Dfile=/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -Durl=file:/home/mikeh/.m2/repository
+  536  lein compile
+  537  tree
+  538  lein deps
+  539  lein repl
+  540  lein repl
+  541  git status
+  542  git add project.clj 
+  543  git add src/jfx/app.clj 
+  544  git commit
+  545  git status
+  546  lein compile
+  547  tree
+  548  lein repl
+  549  lein repl
+  550  tree
+  551  git log
+  552  tree
+  553  history 
+  554  history > history1.txt
