@@ -48,7 +48,7 @@
     (.load (.getEngine web-view) url)
     
     ;; add a Button with a click handler class floating on top of the WebView
-    (.setTitle stage "JavaFX app with Clojure")
+    (.setTitle stage "JavaFX app with Clojure Mike")
     (.setText btn "Just a button")
     (.setOnAction btn
                   (proxy [EventHandler] []

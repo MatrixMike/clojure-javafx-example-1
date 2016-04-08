@@ -21,5 +21,6 @@
                  ;; README.md in project root folder for details.
                  [local.oracle/javafxrt "2.2.0"]]
                  
+                 :main jfx.app
                  )
 
