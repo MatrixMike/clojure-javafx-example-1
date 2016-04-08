@@ -70,3 +70,8 @@
   "Launch a JavaFX Application using class clj.jfx.App"
   []
   (javafx.application.Application/launch clj.jfx.App (into-array String [])))
+  
+(defn -main [& args] 
+
+(launch) ;; (System/exit 0))   
+)  

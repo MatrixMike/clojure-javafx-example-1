@@ -22,5 +22,7 @@
                  [local.oracle/javafxrt "2.2.0"]]
                  
                  :main jfx.app
+                 :aot :all
+                 :omit-source true
                  )
 
