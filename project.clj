@@ -16,8 +16,10 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.4.0"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
                  ;; JFX dependency has to be installed manually, see
                  ;; README.md in project root folder for details.
-                 [local.oracle/javafxrt "2.2.0"]])
+                 [local.oracle/javafxrt "2.2.0"]]
+                 
+                 )
 
