@@ -10,6 +10,7 @@
 ;   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 ;   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 ;   THE SOFTWARE.
+; http://stackoverflow.com/questions/23746431/jfxrt-jar-not-in-jdk-1-8
 
 (defproject clj-javafx "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
@@ -19,7 +20,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  ;; JFX dependency has to be installed manually, see
                  ;; README.md in project root folder for details.
-                 [local.oracle/javafxrt "2.2.0"]]
+                 [local.oracle/jfxrt "2.2.0"]]
                  
                  :main jfx.app
                  :aot :all
