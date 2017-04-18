@@ -20,7 +20,8 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  ;; JFX dependency has to be installed manually, see
                  ;; README.md in project root folder for details.
-                 [local.oracle/jfxrt "2.2.0"]]
+        ;         [local.oracle/jfxrt "2.2.0"]
+        ]
                  
                  :main jfx.app
                  :aot :all
