@@ -25,6 +25,6 @@
                  
                  :main jfx.app
                  :aot :all
-                 :omit-source true
+                 ;;:omit-source true
                  )
 
